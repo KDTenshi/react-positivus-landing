@@ -1,0 +1,12 @@
+@use "../../style/colors" as c;
+
+.Icon {
+  width: 58px;
+  height: 58px;
+  border: 1px solid c.$dark;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: c.$grey;
+}

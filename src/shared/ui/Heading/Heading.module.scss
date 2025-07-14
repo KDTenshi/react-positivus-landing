@@ -1,0 +1,45 @@
+@use "../../style/colors" as c;
+@import "../../style/mixins";
+
+@mixin Heading() {
+  padding: 0 7px;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.First {
+  @include Heading_1();
+}
+
+.Second {
+  @include Heading_2();
+}
+
+.Third {
+  @include Heading_3();
+}
+
+.Fourth {
+  @include Heading_4();
+}
+
+.Black {
+  @include Heading();
+
+  background: c.$dark;
+  color: c.$white;
+}
+
+.White {
+  @include Heading();
+
+  background: c.$white;
+  color: c.$black;
+}
+
+.Green {
+  @include Heading();
+
+  background: c.$green;
+  color: c.$black;
+}

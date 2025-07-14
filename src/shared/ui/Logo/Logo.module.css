@@ -1,0 +1,17 @@
+.Normal {
+  width: 220px;
+}
+.Normal img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Small {
+  width: 180px;
+}
+.Small img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Logo.module.css.map */

@@ -1,0 +1,36 @@
+.Black {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 20px 35px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: #191a23;
+  color: #ffffff;
+}
+
+.Trans {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 20px 35px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border: 1px solid #191a23;
+  background: transparent;
+  color: #000000;
+}
+
+.Green {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 20px 35px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: #b9ff66;
+  color: #000000;
+}/*# sourceMappingURL=Button.module.css.map */

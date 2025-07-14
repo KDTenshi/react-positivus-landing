@@ -1,0 +1,68 @@
+.Link_Black {
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #191a23;
+}
+
+.Link_Green {
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #b9ff66;
+}
+
+.Link_White {
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #ffffff;
+}
+
+.Icon_Black {
+  width: 41px;
+  height: 41px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: #191a23;
+}
+
+.Icon_Green {
+  width: 41px;
+  height: 41px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: #b9ff66;
+}
+
+.Icon_White {
+  width: 41px;
+  height: 41px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: #ffffff;
+}
+
+.Icon_Simple {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=Link.module.css.map */

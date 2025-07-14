@@ -1,0 +1,62 @@
+@use "../../style/colors" as c;
+
+@mixin Link() {
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+@mixin Icon() {
+  width: 41px;
+  height: 41px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.Link_Black {
+  @include Link();
+
+  color: c.$dark;
+}
+
+.Link_Green {
+  @include Link();
+
+  color: c.$green;
+}
+
+.Link_White {
+  @include Link();
+
+  color: c.$white;
+}
+
+.Icon_Black {
+  @include Icon();
+
+  background: c.$dark;
+}
+
+.Icon_Green {
+  @include Icon();
+
+  background: c.$green;
+}
+
+.Icon_White {
+  @include Icon();
+
+  background: c.$white;
+}
+
+.Icon_Simple {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

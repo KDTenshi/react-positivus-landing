@@ -1,0 +1,16 @@
+@mixin Logo($width) {
+  width: $width;
+
+  & img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.Normal {
+  @include Logo(220px);
+}
+
+.Small {
+  @include Logo(180px);
+}

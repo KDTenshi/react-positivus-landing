@@ -1,1 +1,29 @@
 @use "./colors" as c;
+
+@mixin Heading_Base($font-size) {
+  font-weight: 500;
+  font-size: $font-size;
+  line-height: auto;
+}
+
+@mixin Heading_1() {
+  @include Heading_Base(60px);
+}
+
+@mixin Heading_2() {
+  @include Heading_Base(40px);
+}
+
+@mixin Heading_3() {
+  @include Heading_Base(30px);
+}
+
+@mixin Heading_4() {
+  @include Heading_Base(20px);
+}
+
+@mixin Paragraph() {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+}

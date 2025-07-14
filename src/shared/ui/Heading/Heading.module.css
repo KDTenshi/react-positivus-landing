@@ -1,0 +1,47 @@
+.First {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: auto;
+}
+
+.Second {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: auto;
+}
+
+.Third {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: auto;
+}
+
+.Fourth {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: auto;
+}
+
+.Black {
+  padding: 0 7px;
+  border-radius: 7px;
+  display: inline-block;
+  background: #191a23;
+  color: #ffffff;
+}
+
+.White {
+  padding: 0 7px;
+  border-radius: 7px;
+  display: inline-block;
+  background: #ffffff;
+  color: #000000;
+}
+
+.Green {
+  padding: 0 7px;
+  border-radius: 7px;
+  display: inline-block;
+  background: #b9ff66;
+  color: #000000;
+}/*# sourceMappingURL=Heading.module.css.map */
