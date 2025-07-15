@@ -1,0 +1,12 @@
+@use "../../../shared/style/colors";
+
+.Logotypes {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & img {
+    mix-blend-mode: luminosity;
+  }
+}

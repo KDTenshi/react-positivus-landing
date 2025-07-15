@@ -1,0 +1,9 @@
+@use "../../../shared/style/colors" as c;
+
+.Landing {
+  background: c.$white;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-bottom: 140px;
+}

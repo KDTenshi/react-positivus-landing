@@ -1,0 +1,1 @@
+{"version":3,"sources":["TextBlock.module.scss","TextBlock.module.css","../../../shared/style/_mixins.scss","../../../shared/style/_colors.scss"],"names":[],"mappings":"AAGA;EACE,gBAAA;EACA,aAAA;EACA,mBAAA;EACA,sBAAA;EACA,SAAA;EACA,mBAAA;ACFF;;ADKA;EEYE,gBAAA;EACA,eAAA;EACA,iBAAA;EFXA,cGfM;EHgBN,WAAA;ACDF","file":"TextBlock.module.css"}

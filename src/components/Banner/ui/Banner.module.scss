@@ -1,0 +1,30 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Banner {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: c.$white;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: start;
+  width: 35vw;
+}
+
+.Title {
+  @include Heading_1();
+
+  color: c.$black;
+}
+
+.Text {
+  font-size: 20px;
+  line-height: 28px;
+  color: c.$black;
+}
