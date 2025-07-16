@@ -1,5 +1,48 @@
 @use "../../../shared/style/colors" as c;
 @import "../../../shared/style/mixins";
 
+@mixin Service($color) {
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: $color;
+  border-radius: 45px;
+  border: 1px solid c.$dark;
+  box-shadow: 0 5px 0 0 c.$dark;
+}
+
 .Services {
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.Grey {
+  @include Service(c.$grey);
+}
+
+.Green {
+  @include Service(c.$green);
+}
+
+.Black {
+  @include Service(c.$dark);
+}
+
+.Info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.Heading {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }

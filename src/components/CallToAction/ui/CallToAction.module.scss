@@ -1,0 +1,38 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Call {
+  padding: 0 100px;
+  margin-bottom: 140px;
+}
+
+.Card {
+  background: c.$grey;
+  padding: 60px;
+  padding-right: 680px;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 26px;
+  position: relative;
+}
+
+.Title {
+  @include Heading_3();
+
+  color: c.$black;
+}
+
+.Text {
+  @include Paragraph();
+
+  color: c.$black;
+}
+
+.Image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}

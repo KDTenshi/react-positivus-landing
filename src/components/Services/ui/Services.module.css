@@ -1,1 +1,57 @@
-/*# sourceMappingURL=Services.module.css.map */
+.Services {
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.Grey {
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #f3f3f3;
+  border-radius: 45px;
+  border: 1px solid #191a23;
+  box-shadow: 0 5px 0 0 #191a23;
+}
+
+.Green {
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #b9ff66;
+  border-radius: 45px;
+  border: 1px solid #191a23;
+  box-shadow: 0 5px 0 0 #191a23;
+}
+
+.Black {
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #191a23;
+  border-radius: 45px;
+  border: 1px solid #191a23;
+  box-shadow: 0 5px 0 0 #191a23;
+}
+
+.Info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.Heading {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}/*# sourceMappingURL=Services.module.css.map */

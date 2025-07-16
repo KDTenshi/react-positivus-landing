@@ -1,0 +1,36 @@
+.Call {
+  padding: 0 100px;
+  margin-bottom: 140px;
+}
+
+.Card {
+  background: #f3f3f3;
+  padding: 60px;
+  padding-right: 680px;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 26px;
+  position: relative;
+}
+
+.Title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+}
+
+.Text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  color: #000000;
+}
+
+.Image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}/*# sourceMappingURL=CallToAction.module.css.map */
