@@ -7,6 +7,12 @@
   display: inline-block;
 }
 
+.Heading {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
 .First {
   @include Heading_1();
 }

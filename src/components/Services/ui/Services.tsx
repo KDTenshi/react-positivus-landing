@@ -41,8 +41,7 @@ const Service: FC<ServiceProps> = ({ service }) => {
     <div className={colorStyles[service.color]}>
       <div className={style.Info}>
         <div className={style.Heading}>
-          <Heading text={service.title} level={"third"} color={headingColor} />
-          <Heading text={service.subtitle} level={"third"} color={headingColor} />
+          <Heading text={[service.title, service.subtitle]} level={"third"} color={headingColor} />
         </div>
         <Link text="Learn more" color={linkColor} type={linkType} />
       </div>
