@@ -1,0 +1,38 @@
+.Studies {
+  padding: 0 100px;
+  margin-bottom: 140px;
+}
+
+.Container {
+  padding: 70px 60px;
+  background: #191a23;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Study {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.Study:nth-child(1) {
+  padding-right: 64px;
+}
+.Study:nth-child(2) {
+  padding: 0 64px;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+}
+.Study:nth-child(3) {
+  padding-left: 64px;
+}
+
+.Text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  color: #ffffff;
+}/*# sourceMappingURL=Studies.module.css.map */

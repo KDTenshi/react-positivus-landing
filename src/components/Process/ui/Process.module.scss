@@ -1,0 +1,64 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Process {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 140px;
+}
+
+.Card {
+  padding: 41px 60px;
+  background: c.$grey;
+  border: 1px solid c.$dark;
+  box-shadow: 0 5px 0 0 c.$dark;
+  border-radius: 45px;
+}
+
+.Body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 25px;
+}
+
+.Number {
+  font-size: 60px;
+  font-weight: 500;
+  color: c.$black;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight: 500;
+  color: c.$black;
+}
+
+.Button {
+  border-radius: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.Text {
+  @include Paragraph();
+
+  color: c.$black;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid c.$black;
+}
+
+.Open {
+  background: c.$green;
+}

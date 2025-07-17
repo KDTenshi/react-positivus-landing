@@ -1,0 +1,43 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Studies {
+  padding: 0 100px;
+  margin-bottom: 140px;
+}
+
+.Container {
+  padding: 70px 60px;
+  background: c.$dark;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Study {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+
+  &:nth-child(1) {
+    padding-right: 64px;
+  }
+
+  &:nth-child(2) {
+    padding: 0 64px;
+    border-right: 1px solid c.$white;
+    border-left: 1px solid c.$white;
+  }
+
+  &:nth-child(3) {
+    padding-left: 64px;
+  }
+}
+
+.Text {
+  @include Paragraph();
+
+  color: c.$white;
+}
