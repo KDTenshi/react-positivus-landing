@@ -1,0 +1,93 @@
+.Testimonials {
+  padding: 0 100px;
+}
+
+.Container {
+  background: #191a23;
+  padding-top: 84px;
+  padding-bottom: 68px;
+  border-radius: 45px;
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 124px;
+}
+
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  overflow-x: hidden;
+}
+
+.Card {
+  flex-shrink: 0;
+  width: 606px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.Text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  padding: 52px;
+  padding-top: 48px;
+  border: 1px solid #b9ff66;
+  background: #191a23;
+  border-radius: 45px;
+  color: #ffffff;
+  position: relative;
+}
+.Text::before {
+  position: absolute;
+  content: "";
+  height: 38px;
+  width: 38px;
+  border-bottom: 1px solid #b9ff66;
+  border-right: 1px solid #b9ff66;
+  background: #191a23;
+  left: 51px;
+  bottom: 0;
+  transform: translateY(50%) rotate(45deg);
+}
+
+.Info {
+  margin-left: 80px;
+}
+
+.Name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #b9ff66;
+}
+
+.Title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  color: #ffffff;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 189px;
+}
+
+.Dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}
+
+.Button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}/*# sourceMappingURL=Testimonials.module.css.map */

@@ -7,6 +7,9 @@ import { CallToAction } from "../../components/CallToAction";
 import { Studies } from "../../components/Studies";
 import { Process } from "../../components/Process";
 import { Team } from "../../components/Team";
+import { Testimonials } from "../../components/Testimonials";
+import { ContactUs } from "../../components/ContactUs";
+import { Footer } from "../../components/Footer";
 
 const App: FC = () => {
   return (
@@ -30,6 +33,14 @@ const App: FC = () => {
         text="Meet the skilled and experienced team behind our successful digital marketing strategies"
       />
       <Team />
+      <TextBlock
+        title="Testimonials"
+        text="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
+      />
+      <Testimonials />
+      <TextBlock title="Contact Us" text="Connect with Us: Let's Discuss Your Digital Marketing Needs" />
+      <ContactUs />
+      <Footer />
     </div>
   );
 };

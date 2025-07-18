@@ -1,0 +1,103 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Wrapper {
+  padding: 0 100px;
+}
+
+.Footer {
+  background: c.$dark;
+  border-radius: 45px 45px 0 0;
+  padding: 50px 60px;
+  padding-top: 55px;
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Link {
+  @include Paragraph();
+
+  color: c.$white;
+}
+
+.Socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 332px;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Contact {
+  @include Paragraph();
+
+  color: c.$white;
+}
+
+.Subscribe {
+  border-radius: 14px;
+  padding: 58px 40px;
+  background: #292a32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Input {
+  @include Paragraph();
+
+  color: c.$white;
+  padding: 22px 35px;
+  border-radius: 14px;
+  border: 1px solid c.$white;
+  width: 285px;
+  background: #292a32;
+  outline: 0;
+}
+
+.Bottom {
+  padding-top: 50px;
+  border-top: 1px solid c.$white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+
+.Text {
+  @include Paragraph();
+
+  color: c.$white;
+}

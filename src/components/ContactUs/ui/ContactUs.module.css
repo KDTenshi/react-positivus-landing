@@ -1,0 +1,60 @@
+.Contact {
+  padding: 0 100px;
+  margin-bottom: 140px;
+}
+
+.Container {
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 45px;
+}
+
+.Form {
+  padding: 60px 0 80px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 556px;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.Label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.Input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  margin-bottom: 25px;
+  padding: 18px 30px;
+  color: #898989;
+  border-radius: 14px;
+  border: 1px solid #000000;
+}
+
+.Textarea {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  margin-bottom: 25px;
+  padding: 18px 30px;
+  color: #898989;
+  border-radius: 14px;
+  border: 1px solid #000000;
+  resize: none;
+  height: 190px;
+}
+
+.Image {
+  transform: translateX(50%);
+}/*# sourceMappingURL=ContactUs.module.css.map */

@@ -1,0 +1,104 @@
+.Wrapper {
+  padding: 0 100px;
+}
+
+.Footer {
+  background: #191a23;
+  border-radius: 45px 45px 0 0;
+  padding: 50px 60px;
+  padding-top: 55px;
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  color: #ffffff;
+}
+
+.Socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 332px;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Contact {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  color: #ffffff;
+}
+
+.Subscribe {
+  border-radius: 14px;
+  padding: 58px 40px;
+  background: #292a32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  color: #ffffff;
+  padding: 22px 35px;
+  border-radius: 14px;
+  border: 1px solid #ffffff;
+  width: 285px;
+  background: #292a32;
+  outline: 0;
+}
+
+.Bottom {
+  padding-top: 50px;
+  border-top: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+
+.Text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  color: #ffffff;
+}/*# sourceMappingURL=Footer.module.css.map */
